@@ -1,0 +1,8 @@
+sudo git clone https://github.com/cikgusuraya/TorrentBot && bash TorrentBot/auto.sh
+
+mirror - link magnet 
+mirrortar - zip file 
+mirrorstatus - check downloading
+cancelmirror - cancle download
+cancelall - cancel all download
+getfolder - folder drive
