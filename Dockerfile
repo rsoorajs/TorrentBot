@@ -19,7 +19,7 @@ RUN mkdir /TorrentBot
 RUN chmod 777 /TorrentBot
 WORKDIR /TorrentBot
 
-RUN git clone https://github.com/shukryshuk/TorrentBot /TorrentBot
+RUN git clone https://github.com/paduhq/TorrentBot /TorrentBot
 
 
 
