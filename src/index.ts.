@@ -566,12 +566,9 @@ function driveUploadCompleteCallback(err: string, gid: string, url: string, file
     cleanupDownload(gid, finalMessage);
   } else {
     console.log(`${gid}: Uploaded `);
-    if (isFolder && fileSize) {
+    if (fileSize) {
       var fileSizeStr = downloadUtils.formatSize(fileSize);
-      finalMessage = `Upload completed! ✅ \n\nFile Name : <code>${fileName}</code> (${fileSizeStr})\n\nDownload links :\n<a href='${url}'>Google Drive</a>\n\nTorrent bot created by 👉 <a href='https://t.me/LutfiHamka'>Lutfi Hamka</a>`;
-    } else if (fileSize) {
-      var fileSizeStr = downloadUtils.formatSize(fileSize);
-      finalMessage = `Upload completed! ✅ \n\nFile Name : <code>${fileName}</code> (${fileSizeStr})\n\nDownload links :\n<a href='${url}'>Google Drive</a>\n\nTorrent bot created by 👉 <a href='https://t.me/LutfiHamka'>Lutfi Hamka</a>`;
+      finalMessage = `<a href='${url}'>${fileName}</a> (${fileSizeStr})`;
     } else {
       finalMessage = `<a href='${url}'>${fileName}</a>`;
     }
