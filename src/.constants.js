@@ -1,5 +1,5 @@
 module.exports = Object.freeze({
-  TOKEN: '1243705125:AAFNuxqgjvMIHWIh4-aS-rnDDn25-fPAsHc',
+  TOKEN: '1189230894:AAF-TyDTTHF1wjjk7cA7HarabuCtAp0D3xU',
   ARIA_SECRET: 'hasdhashdasndashdagnausdasmd',
   ARIA_DOWNLOAD_LOCATION: '/content',
   ARIA_DOWNLOAD_LOCATION_ROOT: '/', //The mountpoint that contains ARIA_DOWNLOAD_LOCATION
@@ -22,7 +22,7 @@ module.exports = Object.freeze({
   },
   COMMANDS_USE_BOT_NAME: {
     ENABLED: true,  // If true, all commands except '/list' has to have the bot username after the command
-    NAME: "@TorrentPadu_Bot"
+    NAME: "@TorrentPadu2_Bot"
   },
   IS_TEAM_DRIVE: false
 });
