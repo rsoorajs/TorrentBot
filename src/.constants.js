@@ -22,7 +22,7 @@ module.exports = Object.freeze({
   },
   COMMANDS_USE_BOT_NAME: {
     ENABLED: true,  // If true, all commands except '/list' has to have the bot username after the command
-    NAME: "@Hahns_TorrentBot"
+    NAME: "@TorrentPaduDemo_bot"
   },
   IS_TEAM_DRIVE: false
 });
