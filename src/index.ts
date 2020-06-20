@@ -568,10 +568,10 @@ function driveUploadCompleteCallback(err: string, gid: string, url: string, file
     console.log(`${gid}: Uploaded `);
     if (isFolder && fileSize) {
       var fileSizeStr = downloadUtils.formatSize(fileSize);
-      finalMessage = `Upload completed! ✅ \n\nFile Name : <code>${fileName}</code> (${fileSizeStr})\n\nDownload links :\n<a href='${url}'>Google Drive</a>\n\n<a href='https://dl.paduhq.com/1:/${fileName}/'>Direct Link </a>\nUsername : <code>padu</code>\nPassword : <code>padugold12345</code>\n\nOwn your personal torrent bot! PM 👉 <a href='https://t.me/LutfiHamka'>LutfiHamka</a>`;
+      finalMessage = `Upload completed! ✅ \n\nFile Name : <code>${fileName}</code> (${fileSizeStr})\n\nDownload links :\n<a href='${url}'>Google Drive</a>\n\n<a href='https://dl.paduhq.com/1:/${fileName}/'>Direct Link </a>\n\nFolder : https://dl.paduhq.com/1:/\nUsername : <code>padu</code>\nPassword : <code>padugold12345</code>\n\nOwn your personal torrent bot! PM 👉 <a href='https://t.me/LutfiHamka'>LutfiHamka</a>`;
     } else if (fileSize) {
       var fileSizeStr = downloadUtils.formatSize(fileSize);
-      finalMessage = `Upload completed! ✅ \n\nFile Name : <code>${fileName}</code> (${fileSizeStr})\n\nDownload links :\n<a href='${url}'>Google Drive</a>\n\n<a href='https://dl.paduhq.com/1:/${fileName}'>Direct Link </a>\nUsername : <code>padu</code>\nPassword : <code>padugold12345</code>\n\nOwn your personal torrent bot! PM 👉 <a href='https://t.me/LutfiHamka'>LutfiHamka</a>`;
+      finalMessage = `Upload completed! ✅ \n\nFile Name : <code>${fileName}</code> (${fileSizeStr})\n\nDownload links :\n<a href='${url}'>Google Drive</a>\n\n<a href='https://dl.paduhq.com/1:/${fileName}'>Direct Link </a>\n\nFolder : https://dl.paduhq.com/1:/\nUsername : <code>padu</code>\nPassword : <code>padugold12345</code>\n\nOwn your personal torrent bot! PM 👉 <a href='https://t.me/LutfiHamka'>LutfiHamka</a>`;
     } else {
       finalMessage = `<a href='${url}'>${fileName}</a>`;
     }
