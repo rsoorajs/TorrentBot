@@ -568,7 +568,7 @@ function driveUploadCompleteCallback(err: string, gid: string, url: string, file
     console.log(`${gid}: Uploaded `);
     if (fileSize) {
       var fileSizeStr = downloadUtils.formatSize(fileSize);
-      finalMessage = `Upload completed! ✅ \n\nFile Name : <code>${fileName}</code> (${fileSizeStr})\n\nDownload links :\n<a href='${url}'>Google Drive</a>\n\n\nMore features at premium group 👉 <a href='https://shopee.com.my/product/15547096/6838884312'>CLICK HERE</a>\nOwn your personal torrent bot! Shopee 👉 <a href='https://shopee.com.my/product/15547096/4138881258'>CLICK HERE</a>`;
+      finalMessage = `Upload completed! ✅ \n\nFile Name : <code>${fileName}</code> (${fileSizeStr})\n\nDownload links :\n<a href='${url}'>Google Drive</a>\n\n<b>More features at premium group</b> 👉 <a href='https://shopee.com.my/product/15547096/6838884312'>CLICK HERE</a>\n<b>Own your personal torrent bot</b> 👉 <a href='https://shopee.com.my/product/15547096/4138881258'>CLICK HERE</a>`;
     } else {
       finalMessage = `<a href='${url}'>${fileName}</a>`;
     }
