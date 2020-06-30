@@ -8,7 +8,7 @@ module.exports = Object.freeze({
   ARIA_PORT: 8210, // Port for aria2c RPC server, if you change this here, make sure to update aria.sh as well
   GDRIVE_PARENT_DIR_ID: '18_DQge-xVMO5R88oQK-kL7Cw0FyxOTJf',
   SUDO_USERS: [254210865, 1184227743, 556218472],	// Telegram user IDs. These users can use the bot in any chat.
-  AUTHORIZED_CHATS: [-1001428077872],	// Telegram chat IDs. Anyone in these chats can use the bot.
+  AUTHORIZED_CHATS: [-1001345000208],	// Telegram chat IDs. Anyone in these chats can use the bot.
   STATUS_UPDATE_INTERVAL_MS: 12000, // A smaller number will update faster, but might cause rate limiting
   DRIVE_FILE_PRIVATE: {
     ENABLED: false,
@@ -22,7 +22,7 @@ module.exports = Object.freeze({
   },
   COMMANDS_USE_BOT_NAME: {
     ENABLED: true,  // If true, all commands except '/list' has to have the bot username after the command
-    NAME: "@TorrentPadu2_Bot"
+    NAME: "@TorrentPaduDemo_Bot"
   },
   IS_TEAM_DRIVE: false
 });
